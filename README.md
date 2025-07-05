@@ -10,15 +10,15 @@
 - [x] 设计 News 数据类（Java Bean）
 - [x] 创建 Retrofit 接口类（NewsApiService）
 - [ ] 创建 Repository 类统一处理网络请求
-- [ ] 创建主页面（MainActivity）和 XML 布局（RecyclerView + SwipeRefreshLayout）
-- [ ] 实现新闻列表适配器（NewsAdapter）
-- [ ] 下拉刷新：绑定 SwipeRefreshLayout
-- [ ] 上拉加载：RecyclerView 滚动监听 + 分页逻辑
-- [ ] 点击列表项跳转到详情页，传递新闻ID
+- [x] 创建主页面（MainActivity）和 XML 布局（RecyclerView + SwipeRefreshLayout）
+- [x] 实现新闻列表适配器（NewsAdapter）
+- [x] 下拉刷新：绑定 SwipeRefreshLayout
+- [x] 上拉加载：RecyclerView 滚动监听 + 分页逻辑
+- [x] 点击列表项跳转到详情页，传递新闻ID
 
 ### Day2
 - [ ] 搜索界面（SearchView + Spinner 分类 + 日期选择器）
-- [ ] 修改新闻请求接口，支持搜索参数（关键词、分类、时间）
+- [x] 修改新闻请求接口，支持搜索参数（关键词、分类、时间）
 - [ ] 显示所有分类
 - [ ] 可添加/删除分类（持久化到 SharedPreferences）
 - [ ] 支持“全部”分类切换（相当于不传 category 参数）
